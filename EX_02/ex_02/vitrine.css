@@ -1,0 +1,138 @@
+body {
+  font-family: Open-Sans;
+  font-size: 14px;
+  background-color: #f2f2f2;
+ }
+
+ .contenu{
+     max-width:810px;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ header{
+     background-image: url(image-fond.jpg);
+     height: 150px;
+    }
+
+#titre{
+    font-family: Nasalization;
+    font-size: 40px;
+    color: #27d1ff;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.navigation{
+    background-color: #2e2f30;
+    float: right;
+    text-align: right;
+}
+
+.lien{
+    padding-right: 50px;
+    margin: 0px;
+    color: white;
+    text-align: right;
+    vertical-align: middle;
+   
+}
+
+.lienpageactuel {
+    color: #17c1ff;
+    font-weight: bolder;
+}
+
+fieldset:hover a {
+    color: #17c1ff;
+}
+
+footer{
+    text-align: center;
+}
+
+#accueil{
+    text-shadow: 2px 2px 4px black;
+    background-color: #e6e6e6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#IMAGE{
+    text-align: center;
+}
+
+#texte{
+    text-align: center;
+    width: 750px;
+    padding: 10px;
+}
+
+table{
+    width: 480px;
+    border-collapse: collapse;
+    
+}
+
+td{
+    border:2px solid black;
+    padding: 10px;
+}
+
+
+
+#name{ 
+    height: 30px;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #e6e6e6; 
+}
+
+#mail{ 
+    height: 30px;
+    width: 250px;
+    margin: 10px;
+    border: 2px solid#e6e6e6;
+}
+
+#msg{ 
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #e6e6e6; 
+}
+
+#msg:hover{ 
+    border-color: #17c1ff; 
+}
+
+#name:hover{ 
+    border-color: #17c1ff; 
+}
+#mail:hover{ 
+    border-color: #17c1ff; 
+}
+
+#button:hover{
+    background-color: #17c1ff;
+    box-shadow: black 60px
+ }
+
+ #button{
+    text-align: center;
+    box-shadow: 10px 5px 5px black;
+ }
+
+
+
+ #formulaire{
+     max-width: 810px;
+     text-align: center;
+     padding: 8px;
+ }
+
+
+@font-face { font-family: Nasalization; src: url("nasalization-rg.ttf"); } 
+@font-face { font-family: Open-Sans; src: url("OpenSans-Regular.ttf"); }
