@@ -26,6 +26,11 @@
         echo " <h1> Programme </h1>";
         include("vitrine-programme.php");
     }
+    
+    ?>
+    <?php
+    http_response_code(404);
+    include('404.php');
     ?>
   </body>
 
