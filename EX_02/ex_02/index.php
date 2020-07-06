@@ -26,12 +26,12 @@
         echo " <h1> Programme </h1>";
         include("vitrine-programme.php");
     }
+    else {
+        echo "ERREUR 404";
+    }
     
     ?>
-    <?php
-    http_response_code(404);
-    include('404.php');
-    ?>
+  
   </body>
 
   <?php include('footer.php');
